@@ -15,7 +15,7 @@ interface Project {
   technologies: string[]
   image: string
   github: string
-  external: string
+  external: string | null
   lootValue: number
 }
 
