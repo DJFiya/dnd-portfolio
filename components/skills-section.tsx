@@ -97,7 +97,7 @@ export function SkillsSection({ data }: { data: SkillsData }) {
                   {isFocused && <Particles />}
 
                   <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-                    {skills.map((skill, skillIndex) => (
+                    {skills.map((skill: any, skillIndex: number) => (
                       <motion.div
                         key={skill.name}
                         initial={{ opacity: 0, scale: 0.9 }}
