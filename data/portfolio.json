@@ -1,0 +1,203 @@
+{
+  "hero": {
+    "name": "Daevik Jain",
+    "title": "Full Stack Adventurer",
+    "tagline": "Conquering quests through code and creativity",
+    "level": 12,
+    "class": "Developer"
+  },
+  "about": {
+    "backstory": "A seasoned adventurer and explorer of the realm of software development, and a pupil of biomedical engineering at University of Waterloo, completing quests to refine skills in the arts of backend development, AI/ML, Cloud/DevOps and Frontend development.",
+    "alignment": "Chaotic Good",
+    "race": "Human",
+    "proficiencies": ["Problem Solving", "Team Collaboration", "Agile Methodologies", "Code Review"]
+  },
+  "experience": [
+    {
+      "id": 1,
+      "title": "Test and Automation Engineer",
+      "company": "RideCo On-Demand Transit",
+      "location": "Waterloo, ON",
+      "period": "May 2025 – Aug 2025",
+      "questType": "Epic",
+      "description": "Developed and parallelized 50+ pytest automated regression tests, reducing manual testing effort by 95% and suite runtime by 75%.",
+      "achievements": [
+        "Implemented 40+ development tickets spanning agent features, test automation, API cost optimizations",
+        "Audited 80+ WCAG accessibility tests for iOS VoiceOver and website keyboard navigation",
+        "Identified and documented 60+ accessibility issues to meet client standards"
+      ],
+      "xpGained": 5000
+    },
+    {
+      "id": 2,
+      "title": "EMG Sensor Data Analysis",
+      "company": "Biomechatronic Design Team",
+      "location": "Waterloo, ON",
+      "period": "Sep 2024 – April 2025",
+      "questType": "Major",
+      "description": "Collaborated on a machine learning model with 91.56% accuracy to differentiate between 8 unique hand gestures.",
+      "achievements": [
+        "Built AI model using Python, TensorFlow, and Pandas trained on synthetic dataset",
+        "Developed Matplotlib Python graphing tool with Tkinter for user-friendly interface",
+        "Researched wavelet transformations for data interpretation and ML integration"
+      ],
+      "xpGained": 3500
+    },
+    {
+      "id": 3,
+      "title": "Hackathon Founder & Project Lead",
+      "company": "Pickering High School",
+      "location": "Ajax, ON",
+      "period": "Mar 2024 – May 2024",
+      "questType": "Side Quest",
+      "description": "Designed hackathon problem space and goal through literature review in medical diagnostics.",
+      "achievements": [
+        "Led introductory coding workshops for 30+ students in predictive modelling",
+        "Facilitated coding sessions on system design and algorithmic efficiency",
+        "Prepared students for real-world programming challenges"
+      ],
+      "xpGained": 2500
+    },
+    {
+      "id": 4,
+      "title": "Senior Karate Instructor",
+      "company": "Northern Karate Schools",
+      "location": "Ajax, ON",
+      "period": "Sep 2020 – June 2024",
+      "questType": "Side Quest",
+      "description": "Developed structured training plans to teach 200+ students, refining work ethic and collaborative skills.",
+      "achievements": [
+        "Led organized, high-energy classes of 30-60 students",
+        "Applied clear communication and real-time decision-making",
+        "Managed administrative workflows and optimized record-keeping"
+      ],
+      "xpGained": 3000
+    }
+  ],
+  "projects": [
+  {
+      "id": 1,
+      "name": "Blurr - Video Privacy Tool",
+      "rarity": "Legendary",
+      "type": "Backend",
+      "description": "FastAPI video modification endpoint using YOLOv8 to blur sensitive information in live video streams. HackTheNorth 2025 Semifinalist.",
+      "technologies": ["FastAPI", "OpenCV", "WebRTC"],
+      "image": "/blurr.jpg",
+  "github": "https://github.com/TheAmanM/blurr",
+  "external": "https://devpost.com/software/blurr",
+      "lootValue": 8500
+    },
+    {
+      "id": 2,
+      "name": "Solari Blind Assistive Headset",
+      "rarity": "Epic",
+      "type": "Hardware",
+      "description": "Intelligent assistive headset that enhances spatial awareness for visually impaired users through real-time audio feedback.",
+      "technologies": ["Python", "C", "Embedded Systems"],
+      "image": "/headset.jpg",
+  "github": "https://github.com/NehaKasoju/hackthe6ix",
+  "external": "https://devpost.com/software/aura-gpnklq",
+      "lootValue": 10000
+    },
+    {
+      "id": 3,
+      "name": "PyGuide.ai",
+      "rarity": "Rare",
+      "type": "Frontend",
+      "description": "Educational tool combining Duolingo, ChatGPT, and LeetCode to accelerate software engineering learning.",
+      "technologies": ["React", "Expo", "JavaScript"],
+      "image": "/pyguide.jpg",
+  "github": "https://github.com/ArcticCodeMonkeys/PyGuide.ai",
+  "external": "https://devpost.com/software/pyguide-ai",
+      "lootValue": 7500
+    },
+    {
+      "id": 4,
+      "name": "Virtual Hand Tracking",
+      "rarity": "Uncommon",
+      "type": "AI/ML",
+      "description": "Real-time 3D hand tracking system with gesture recognition and virtual interactions.",
+      "technologies": ["Flask", "OpenCV", "Three.js"],
+      "image": "/hand.jpg",
+  "github": "https://github.com/DJFiya/hand-tracking-3d",
+  "external": null,
+      "lootValue": 6000
+    },
+    {
+      "id": 5,
+      "name": "My Diet Map",
+      "rarity": "Rare",
+      "type": "Frontend",
+      "description": "Restaurant finder app with dietary restriction filtering and geolocation-based recommendations.",
+      "technologies": ["React", "JavaScript", "HTML"],
+      "image": "/diet_map.jpg",
+  "github": "https://github.com/PeterAlpajaro/Dietary_mAPP",
+  "external": "https://devpost.com/software/mydietmapp",
+      "lootValue": 5000
+    },
+    {
+      "id": 6,
+      "name": "AI Platformer Game",
+      "rarity": "Epic",
+      "type": "AI/ML",
+      "description": "Reinforcement learning AI integrated into a real-time platformer game built with PyTorch and SFML.",
+      "technologies": ["PyTorch", "C++", "SFML"],
+      "image": "/ai_parkour.jpg",
+  "github": "https://github.com/DJFiya/Droid-Drifter",
+  "external": null,
+      "lootValue": 7000
+    }
+  ],
+  "skills": {
+    "combat": [
+      { "name": "Node.js", "category": "Backend" },
+      { "name": "Express", "category": "Backend" },
+      { "name": "PostgreSQL", "category": "Database" },
+      { "name": "MongoDB", "category": "Database" },
+      { "name": "Redis", "category": "Database" },
+      { "name": "Django", "category": "Backend" },
+      { "name": "FastAPI", "category": "Backend" },
+      { "name": "Flask", "category": "Backend" },
+      { "name": "Python", "category": "Backend" }
+    ],
+    "magic": [
+      { "name": "React", "category": "Frontend" },
+      { "name": "Next.js", "category": "Framework" },
+      { "name": "CSS/Tailwind", "category": "Styling" },
+      { "name": "TypeScript", "category": "Language" },
+      { "name": "JavaScript", "category": "Language" },
+      { "name": "Vue.js", "category": "Frontend" },
+      { "name": "Three.js", "category": "Frontend" },
+      { "name": "WebRTC", "category": "Frontend" },
+      { "name": "Swing", "category": "Frontend" }
+    ],
+    "arcane": [
+      { "name": "TensorFlow", "category": "ML" },
+      { "name": "PyTorch", "category": "ML" },
+      { "name": "Pandas", "category": "ML" },
+      { "name": "Scikit-learn", "category": "ML" },
+      { "name": "Hugging Face", "category": "AI" },
+      { "name": "OpenAI API", "category": "AI" },
+      { "name": "OpenCV", "category": "CV" },
+      { "name": "Yolov8", "category": "CV" },
+      { "name": "Mediapipe", "category": "CV" }
+    ],
+    "utility": [
+      { "name": "Git", "category": "Version Control" },
+      { "name": "Docker", "category": "DevOps" },
+      { "name": "AWS", "category": "Cloud" },
+      { "name": "Playwright", "category": "Testing" },
+      { "name": "Pytest", "category": "Testing" },
+      { "name": "VSCode", "category": "IDE" },
+      { "name": "Jupyter", "category": "IDE" },
+      { "name": "C++", "category": "Language" },
+      { "name": "Java", "category": "Language" }
+    ]
+  },
+  "contact": {
+    "email": "daevikjain@gmail.com",
+    "github": "https://github.com/DJFiya",
+    "linkedin": "https://www.linkedin.com/in/daevik-jain/",
+    "message": "Send a raven with your quest details, and I shall respond with haste!"
+  }
+}

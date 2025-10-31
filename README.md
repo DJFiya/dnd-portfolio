@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DnD-Themed Software Portfolio
 
-## Getting Started
+This repository is a Dungeons & Dragons–inspired software portfolio that showcases small web apps, tools, and components themed around tabletop RPG mechanics. Projects are implemented with modern JavaScript tooling and demonstrate UI design, game-like logic, AI/ML experiments, and embedded systems work.
 
-First, run the development server:
+## What you'll find here
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- A collection of projects and demos (see the projects listing in data/portfolio.json).
+- A hero page and themed UI components built with Next.js to present projects as "quests" and "loot".
+- Examples that highlight backend systems, AI/ML prototypes, hardware integrations, and frontend experiences (procedural content generators, character UIs, encounter helpers, etc.).
+- A data-driven structure so new projects can be added by updating JSON entries.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Highlights
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Narrative presentation: projects presented as quests with rarity and loot values.
+- Hands-on demos: code for machine learning experiments, real-time hand tracking, assistive hardware prototypes, and gameplay AI.
+- Emphasis on reusability: modular components and a simple data model (see data/portfolio.json) that drives the site.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project structure (important locations)
 
-## Learn More
+- app/ — Next.js pages and UI composition.
+- data/portfolio.json — canonical list of projects, hero, skills, and contact info used by the site.
+- components/ — reusable UI components (cards, lists, hero).
+- public/ — images and static assets used in the portfolio.
 
-To learn more about Next.js, take a look at the following resources:
+## Explore the portfolio
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Browse data/portfolio.json to review how projects are represented (fields like name, rarity, technologies, and lootValue).
+- Open app/ and components/ to see how the data is rendered into themed UI pages.
+- Each project in the data file links to source or demos where available.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+<!-- End of README -->
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
